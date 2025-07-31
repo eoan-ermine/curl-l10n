@@ -1,0 +1,787 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: curl 8.16.0\n"
+"Report-Msgid-Bugs-To: https://github.com/eoan-ermine/curl-l10n-messages/issues/\n"
+"POT-Creation-Date: 2025-07-31 13:31+0300\n"
+"PO-Revision-Date: 2025-07-31 14:54+0300\n"
+"Last-Translator: Danil Sidoruk <danilsidoruknv@yandex.ru>\n"
+"Language-Team: https://github.com/eoan-ermine/curl/discussions/categories/russian-translation-team\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+#: lib/strerror.c:63 lib/strerror.c:344 lib/strerror.c:359 lib/strerror.c:404
+#: lib/strerror.c:416 lib/strerror.c:440 lib/strerror.c:452 lib/strerror.c:554
+#: lib/strerror.c:889 lib/strerror.c:997
+msgid "No error"
+msgstr "Нет ошибки"
+
+#: lib/strerror.c:66
+msgid "Unsupported protocol"
+msgstr "Неподдерживаемый протокол"
+
+#: lib/strerror.c:69
+msgid "Failed initialization"
+msgstr "Ошибка инициализации"
+
+#: lib/strerror.c:72
+msgid "URL using bad/illegal format or missing URL"
+msgstr "Неверный или отсутствующий URL"
+
+#: lib/strerror.c:75
+msgid ""
+"A requested feature, protocol or option was not found built-in in this "
+"libcurl due to a build-time decision."
+msgstr "Запрошенная функция, протокол или опция не включены в эту версию libcurl по "
+"причине решений, принятых при сборке."
+
+#: lib/strerror.c:79
+msgid "Could not resolve proxy name"
+msgstr "Не удалось разрешить имя прокси"
+
+#: lib/strerror.c:82
+msgid "Could not resolve hostname"
+msgstr "Не удалось разрешить имя хоста"
+
+#: lib/strerror.c:85
+msgid "Could not connect to server"
+msgstr "Не удалось подключиться к серверу"
+
+#: lib/strerror.c:88
+msgid "Weird server reply"
+msgstr "Необычный ответ сервера"
+
+#: lib/strerror.c:91
+msgid "Access denied to remote resource"
+msgstr "Доступ к удалённому ресурсу запрещён"
+
+#: lib/strerror.c:94
+msgid "FTP: The server failed to connect to data port"
+msgstr "FTP: Сервер не смог подключиться к порту передачи данных"
+
+#: lib/strerror.c:97
+msgid "FTP: Accepting server connect has timed out"
+msgstr "FTP: Превышено время ожидания подключения сервера"
+
+#: lib/strerror.c:100
+msgid "FTP: The server did not accept the PRET command."
+msgstr "FTP: Сервер не принял команду PRET."
+
+#: lib/strerror.c:103
+msgid "FTP: unknown PASS reply"
+msgstr "FTP: неизвестный ответ на PASS"
+
+#: lib/strerror.c:106
+msgid "FTP: unknown PASV reply"
+msgstr "FTP: неизвестный ответ на PASV"
+
+#: lib/strerror.c:109
+msgid "FTP: unknown 227 response format"
+msgstr "FTP: неизвестный формат ответа 227"
+
+#: lib/strerror.c:112
+msgid "FTP: cannot figure out the host in the PASV response"
+msgstr "FTP: не удалось определить хост в ответе PASV"
+
+#: lib/strerror.c:115
+msgid "Error in the HTTP2 framing layer"
+msgstr "Ошибка в слое фрейминга HTTP/2"
+
+#: lib/strerror.c:118
+msgid "FTP: could not set file type"
+msgstr "FTP: не удалось установить тип файла"
+
+#: lib/strerror.c:121
+msgid "Transferred a partial file"
+msgstr "Передан неполный файл"
+
+#: lib/strerror.c:124
+msgid "FTP: could not retrieve (RETR failed) the specified file"
+msgstr "FTP: не удалось получить указанный файл (ошибка выполнения RETR)"
+
+#: lib/strerror.c:127
+msgid "Quote command returned error"
+msgstr "Команда Quote вернула ошибку"
+
+#: lib/strerror.c:130
+msgid "HTTP response code said error"
+msgstr "Код ответа HTTP указывает на ошибку"
+
+#: lib/strerror.c:133
+msgid "Failed writing received data to disk/application"
+msgstr "Не удалось записать полученные данные на диск или в приложение"
+
+#: lib/strerror.c:136
+msgid "Upload failed (at start/before it took off)"
+msgstr "Не удалось начать загрузку"
+
+#: lib/strerror.c:139
+msgid "Failed to open/read local data from file/application"
+msgstr "Не удалось открыть или прочитать локальные данные из файла/программы"
+
+#: lib/strerror.c:142 lib/strerror.c:368 lib/strerror.c:428
+msgid "Out of memory"
+msgstr "Недостаточно памяти"
+
+#: lib/strerror.c:145
+msgid "Timeout was reached"
+msgstr "Время ожидания истекло"
+
+#: lib/strerror.c:148
+msgid "FTP: command PORT failed"
+msgstr "FTP: команда PORT завершилась ошибкой"
+
+#: lib/strerror.c:151
+msgid "FTP: command REST failed"
+msgstr "FTP: команда REST завершилась ошибкой"
+
+#: lib/strerror.c:154
+msgid "Requested range was not delivered by the server"
+msgstr "Запрошенный диапазон не был предоставлен сервером"
+
+#: lib/strerror.c:157
+msgid "SSL connect error"
+msgstr "Ошибка подключения SSL"
+
+#: lib/strerror.c:160
+msgid "Could not resume download"
+msgstr "Не удалось возобновить загрузку"
+
+#: lib/strerror.c:163
+msgid "Could not read a file:// file"
+msgstr "Не удалось прочитать файл по протоколу file://"
+
+#: lib/strerror.c:166
+msgid "LDAP: cannot bind"
+msgstr "LDAP: не удалось выполнить привязку"
+
+#: lib/strerror.c:169
+msgid "LDAP: search failed"
+msgstr "LDAP: поиск завершился ошибкой"
+
+#: lib/strerror.c:172 lib/strerror.c:392
+msgid "Operation was aborted by an application callback"
+msgstr "Операция была прервана обратным вызовом приложения"
+
+#: lib/strerror.c:175 lib/strerror.c:389
+msgid "A libcurl function was given a bad argument"
+msgstr "Функции libcurl передан неверный аргумент"
+
+#: lib/strerror.c:178
+msgid "Failed binding local connection end"
+msgstr "Не удалось привязать локальный конец соединения"
+
+#: lib/strerror.c:181
+msgid "Number of redirects hit maximum amount"
+msgstr "Достигнуто максимальное количество перенаправлений"
+
+#: lib/strerror.c:184
+msgid "An unknown option was passed in to libcurl"
+msgstr "В libcurl передана неизвестная опция"
+
+#: lib/strerror.c:187
+msgid "Malformed option provided in a setopt"
+msgstr "Неверно сформированная опция в setopt"
+
+#: lib/strerror.c:190
+msgid "Server returned nothing (no headers, no data)"
+msgstr "Сервер не вернул ничего (ни заголовков, ни данных)"
+
+#: lib/strerror.c:193
+msgid "SSL crypto engine not found"
+msgstr "Криптографический движок SSL не найден"
+
+#: lib/strerror.c:196
+msgid "Can not set SSL crypto engine as default"
+msgstr "Не удалось установить криптографический движок SSL по умолчанию"
+
+#: lib/strerror.c:199
+msgid "Failed to initialise SSL crypto engine"
+msgstr "Не удалось инициализировать криптографический движок SSL"
+
+#: lib/strerror.c:202
+msgid "Failed sending data to the peer"
+msgstr "Не удалось отправить данные узлу"
+
+#: lib/strerror.c:205
+msgid "Failure when receiving data from the peer"
+msgstr "Ошибка при получении данных от узла"
+
+#: lib/strerror.c:208
+msgid "Problem with the local SSL certificate"
+msgstr "Проблема с локальным сертификатом SSL"
+
+#: lib/strerror.c:211
+msgid "Could not use specified SSL cipher"
+msgstr "Не удалось использовать указанный шифр SSL"
+
+#: lib/strerror.c:214
+msgid "SSL peer certificate or SSH remote key was not OK"
+msgstr "Сертификат SSL узла или удалённый ключ SSH некорректен"
+
+#: lib/strerror.c:217
+msgid "Problem with the SSL CA cert (path? access rights?)"
+msgstr "Проблема с сертификатом SSL CA (путь? права доступа?)"
+
+#: lib/strerror.c:220
+msgid "Unrecognized or bad HTTP Content or Transfer-Encoding"
+msgstr "Нераспознанный или неверный HTTP Content или Transfer-Encoding"
+
+#: lib/strerror.c:223
+msgid "Maximum file size exceeded"
+msgstr "Превышен максимальный размер файла"
+
+#: lib/strerror.c:226
+msgid "Requested SSL level failed"
+msgstr "Запрошенный уровень SSL не поддерживается"
+
+#: lib/strerror.c:229
+msgid "Failed to shut down the SSL connection"
+msgstr "Не удалось закрыть соединение SSL"
+
+#: lib/strerror.c:232
+msgid "Failed to load CRL file (path? access rights?, format?)"
+msgstr "Не удалось загрузить файл CRL (путь? права доступа? формат?)"
+
+#: lib/strerror.c:235
+msgid "Issuer check against peer certificate failed"
+msgstr "Проверка издателя сертификата узла завершилась ошибкой"
+
+#: lib/strerror.c:238
+msgid "Send failed since rewinding of the data stream failed"
+msgstr "Отправка не удалась из-за ошибки перемотки потока данных"
+
+#: lib/strerror.c:241
+msgid "Login denied"
+msgstr "Вход запрещён"
+
+#: lib/strerror.c:244
+msgid "TFTP: File Not Found"
+msgstr "TFTP: Файл не найден"
+
+#: lib/strerror.c:247
+msgid "TFTP: Access Violation"
+msgstr "TFTP: Нарушение прав доступа"
+
+#: lib/strerror.c:250
+msgid "Disk full or allocation exceeded"
+msgstr "Диск заполнен или превышено выделение памяти"
+
+#: lib/strerror.c:253
+msgid "TFTP: Illegal operation"
+msgstr "TFTP: Недопустимая операция"
+
+#: lib/strerror.c:256
+msgid "TFTP: Unknown transfer ID"
+msgstr "TFTP: Неизвестный идентификатор передачи"
+
+#: lib/strerror.c:259
+msgid "Remote file already exists"
+msgstr "Удалённый файл уже существует"
+
+#: lib/strerror.c:262
+msgid "TFTP: No such user"
+msgstr "TFTP: Пользователь не существует"
+
+#: lib/strerror.c:265
+msgid "Remote file not found"
+msgstr "Удалённый файл не найден"
+
+#: lib/strerror.c:268
+msgid "Error in the SSH layer"
+msgstr "Ошибка в слое SSH"
+
+#: lib/strerror.c:271
+msgid "Socket not ready for send/recv"
+msgstr "Сокет не готов для отправки/получения"
+
+#: lib/strerror.c:274
+msgid "RTSP CSeq mismatch or invalid CSeq"
+msgstr "RTSP: Несоответствие CSeq или неверный CSeq"
+
+#: lib/strerror.c:277
+msgid "RTSP session error"
+msgstr "Ошибка сессии RTSP"
+
+#: lib/strerror.c:280
+msgid "Unable to parse FTP file list"
+msgstr "Не удалось разобрать список файлов FTP"
+
+#: lib/strerror.c:283
+msgid "Chunk callback failed"
+msgstr "Ошибка обратного вызова фрагмента"
+
+#: lib/strerror.c:286
+msgid "The max connection limit is reached"
+msgstr "Достигнуто максимальное количество соединений"
+
+#: lib/strerror.c:289
+msgid "SSL public key does not match pinned public key"
+msgstr "Публичный ключ SSL не соответствует закреплённому ключу"
+
+#: lib/strerror.c:292
+msgid "SSL server certificate status verification FAILED"
+msgstr "Проверка статуса сертификата сервера SSL завершилась ошибкой"
+
+#: lib/strerror.c:295
+msgid "Stream error in the HTTP/2 framing layer"
+msgstr "Ошибка потока в слое фрейминга HTTP/2"
+
+#: lib/strerror.c:298 lib/strerror.c:383
+msgid "API function called from within callback"
+msgstr "Функция API вызвана из обратного вызова"
+
+#: lib/strerror.c:301
+msgid "An authentication function returned an error"
+msgstr "Функция аутентификации вернула ошибку"
+
+#: lib/strerror.c:304
+msgid "HTTP/3 error"
+msgstr "Ошибка HTTP/3"
+
+#: lib/strerror.c:307
+msgid "QUIC connection error"
+msgstr "Ошибка соединения QUIC"
+
+#: lib/strerror.c:310
+msgid "proxy handshake error"
+msgstr "Ошибка рукопожатия прокси"
+
+#: lib/strerror.c:313
+msgid "SSL Client Certificate required"
+msgstr "Требуется сертификат клиента SSL"
+
+#: lib/strerror.c:316 lib/strerror.c:395
+msgid "Unrecoverable error in select/poll"
+msgstr "Невосстановимая ошибка в select/poll"
+
+#: lib/strerror.c:319
+msgid "A value or data field grew larger than allowed"
+msgstr "Значение или поле данных превысило допустимый размер"
+
+#: lib/strerror.c:322
+msgid "ECH attempted but failed"
+msgstr "Попытка использования ECH завершилась ошибкой"
+
+#: lib/strerror.c:341 lib/strerror.c:401 lib/strerror.c:977
+msgid "Unknown error"
+msgstr "Неизвестная ошибка"
+
+#: lib/strerror.c:346 lib/strerror.c:406 lib/strerror.c:442 lib/strerror.c:556
+#: lib/strerror.c:999
+msgid "Error"
+msgstr "Ошибка"
+
+#: lib/strerror.c:356
+msgid "Please call curl_multi_perform() soon"
+msgstr "Пожалуйста, вызовите curl_multi_perform() в ближайшее время"
+
+#: lib/strerror.c:362
+msgid "Invalid multi handle"
+msgstr "Неверный мультидескриптор"
+
+#: lib/strerror.c:365
+msgid "Invalid easy handle"
+msgstr "Неверный простой дескриптор"
+
+#: lib/strerror.c:371
+msgid "Internal error"
+msgstr "Внутренняя ошибка"
+
+#: lib/strerror.c:374
+msgid "Invalid socket argument"
+msgstr "Неверный аргумент сокета"
+
+#: lib/strerror.c:377
+msgid "Unknown option"
+msgstr "Неизвестная опция"
+
+#: lib/strerror.c:380
+msgid "The easy handle is already added to a multi handle"
+msgstr "Простой дескриптор уже добавлен в мультидескриптор"
+
+#: lib/strerror.c:386
+msgid "Wakeup is unavailable or failed"
+msgstr "Пробуждение недоступно или завершилось ошибкой"
+
+#: lib/strerror.c:419
+msgid "Unknown share option"
+msgstr "Неизвестная опция совместного использования"
+
+#: lib/strerror.c:422
+msgid "Share currently in use"
+msgstr "Совместное использование уже активно"
+
+#: lib/strerror.c:425
+msgid "Invalid share handle"
+msgstr "Неверный дескриптор совместного использования"
+
+#: lib/strerror.c:431
+msgid "Feature not enabled in this library"
+msgstr "Функция не включена в этой библиотеке"
+
+#: lib/strerror.c:437
+msgid "CURLSHcode unknown"
+msgstr "Неизвестный код ошибки CURLSHcode"
+
+#: lib/strerror.c:455
+msgid "An invalid CURLU pointer was passed as argument"
+msgstr "Передан неверный указатель CURLU в качестве аргумента"
+
+#: lib/strerror.c:458
+msgid "An invalid 'part' argument was passed as argument"
+msgstr "Передан неверный аргумент 'part'"
+
+#: lib/strerror.c:461
+msgid "Malformed input to a URL function"
+msgstr "Неверный ввод в функцию URL"
+
+#: lib/strerror.c:464
+msgid "Port number was not a decimal number between 0 and 65535"
+msgstr "Номер порта не является десятичным числом от 0 до 65535"
+
+#: lib/strerror.c:467
+msgid "Unsupported URL scheme"
+msgstr "Неподдерживаемая схема URL"
+
+#: lib/strerror.c:470
+msgid "URL decode error, most likely because of rubbish in the input"
+msgstr "Ошибка декодирования URL, скорее всего, из-за некорректного ввода"
+
+#: lib/strerror.c:473
+msgid "A memory function failed"
+msgstr "Ошибка функции работы с памятью"
+
+#: lib/strerror.c:476
+msgid "Credentials was passed in the URL when prohibited"
+msgstr "Учётные данные переданы в URL, когда это запрещено"
+
+#: lib/strerror.c:479
+msgid "An unknown part ID was passed to a URL API function"
+msgstr "Неизвестный идентификатор части передан в функцию URL API"
+
+#: lib/strerror.c:482
+msgid "No scheme part in the URL"
+msgstr "Отсутствует часть схемы в URL"
+
+#: lib/strerror.c:485
+msgid "No user part in the URL"
+msgstr "Отсутствует часть пользователя в URL"
+
+#: lib/strerror.c:488
+msgid "No password part in the URL"
+msgstr "Отсутствует часть пароля в URL"
+
+#: lib/strerror.c:491
+msgid "No options part in the URL"
+msgstr "Отсутствует часть опций в URL"
+
+#: lib/strerror.c:494
+msgid "No host part in the URL"
+msgstr "Отсутствует часть хоста в URL"
+
+#: lib/strerror.c:497
+msgid "No port part in the URL"
+msgstr "Отсутствует часть порта в URL"
+
+#: lib/strerror.c:500
+msgid "No query part in the URL"
+msgstr "Отсутствует часть запроса в URL"
+
+#: lib/strerror.c:503
+msgid "No fragment part in the URL"
+msgstr "Отсутствует часть фрагмента в URL"
+
+#: lib/strerror.c:506
+msgid "No zoneid part in the URL"
+msgstr "Отсутствует часть zoneid в URL"
+
+#: lib/strerror.c:509
+msgid "Bad login part"
+msgstr "Неверная часть логина"
+
+#: lib/strerror.c:512
+msgid "Bad IPv6 address"
+msgstr "Неверный адрес IPv6"
+
+#: lib/strerror.c:515
+msgid "Bad hostname"
+msgstr "Неверное имя хоста"
+
+#: lib/strerror.c:518
+msgid "Bad file:// URL"
+msgstr "Неверный URL file://"
+
+#: lib/strerror.c:521
+msgid "Unsupported number of slashes following scheme"
+msgstr "Неподдерживаемое количество слэшей после схемы"
+
+#: lib/strerror.c:524
+msgid "Bad scheme"
+msgstr "Неверная схема"
+
+#: lib/strerror.c:527
+msgid "Bad path"
+msgstr "Неверный путь"
+
+#: lib/strerror.c:530
+msgid "Bad fragment"
+msgstr "Неверный фрагмент"
+
+#: lib/strerror.c:533
+msgid "Bad query"
+msgstr "Неверный запрос"
+
+#: lib/strerror.c:536
+msgid "Bad password"
+msgstr "Неверный пароль"
+
+#: lib/strerror.c:539
+msgid "Bad user"
+msgstr "Неверный пользователь"
+
+#: lib/strerror.c:542
+msgid "libcurl lacks IDN support"
+msgstr "libcurl не поддерживает IDN"
+
+#: lib/strerror.c:545
+msgid "A value or data field is larger than allowed"
+msgstr "Значение или поле данных превышает допустимый размер"
+
+#: lib/strerror.c:551
+msgid "CURLUcode unknown"
+msgstr "Неизвестный код ошибки CURLUcode"
+
+#: lib/strerror.c:584
+msgid "Call interrupted"
+msgstr "Вызов прерван"
+
+#: lib/strerror.c:587
+msgid "Bad file"
+msgstr "Неверный файл"
+
+#: lib/strerror.c:590
+msgid "Bad access"
+msgstr "Неверный доступ"
+
+#: lib/strerror.c:593
+msgid "Bad argument"
+msgstr "Неверный аргумент"
+
+#: lib/strerror.c:596
+msgid "Invalid arguments"
+msgstr "Неверные аргументы"
+
+#: lib/strerror.c:599
+msgid "Out of file descriptors"
+msgstr "Исчерпаны файловые дескрипторы"
+
+#: lib/strerror.c:602
+msgid "Call would block"
+msgstr "Вызов заблокирует выполнение"
+
+#: lib/strerror.c:606
+msgid "Blocking call in progress"
+msgstr "Выполняется блокирующий вызов"
+
+#: lib/strerror.c:609
+msgid "Descriptor is not a socket"
+msgstr "Дескриптор не является сокетом"
+
+#: lib/strerror.c:612
+msgid "Need destination address"
+msgstr "Требуется адрес назначения"
+
+#: lib/strerror.c:615
+msgid "Bad message size"
+msgstr "Неверный размер сообщения"
+
+#: lib/strerror.c:618
+msgid "Bad protocol"
+msgstr "Неверный протокол"
+
+#: lib/strerror.c:621
+msgid "Protocol option is unsupported"
+msgstr "Опция протокола не поддерживается"
+
+#: lib/strerror.c:624
+msgid "Protocol is unsupported"
+msgstr "Протокол не поддерживается"
+
+#: lib/strerror.c:627
+msgid "Socket is unsupported"
+msgstr "Сокет не поддерживается"
+
+#: lib/strerror.c:630
+msgid "Operation not supported"
+msgstr "Операция не поддерживается"
+
+#: lib/strerror.c:633
+msgid "Address family not supported"
+msgstr "Семейство адресов не поддерживается"
+
+#: lib/strerror.c:636
+msgid "Protocol family not supported"
+msgstr "Семейство протоколов не поддерживается"
+
+#: lib/strerror.c:639
+msgid "Address already in use"
+msgstr "Адрес уже используется"
+
+#: lib/strerror.c:642
+msgid "Address not available"
+msgstr "Адрес недоступен"
+
+#: lib/strerror.c:645
+msgid "Network down"
+msgstr "Сеть недоступна"
+
+#: lib/strerror.c:648
+msgid "Network unreachable"
+msgstr "Сеть недостижима"
+
+#: lib/strerror.c:651
+msgid "Network has been reset"
+msgstr "Сеть была сброшена"
+
+#: lib/strerror.c:654
+msgid "Connection was aborted"
+msgstr "Соединение было прервано"
+
+#: lib/strerror.c:657
+msgid "Connection was reset"
+msgstr "Соединение было сброшено"
+
+#: lib/strerror.c:660
+msgid "No buffer space"
+msgstr "Нет места в буфере"
+
+#: lib/strerror.c:663
+msgid "Socket is already connected"
+msgstr "Сокет уже подключён"
+
+#: lib/strerror.c:666
+msgid "Socket is not connected"
+msgstr "Сокет не подключён"
+
+#: lib/strerror.c:669
+msgid "Socket has been shut down"
+msgstr "Сокет был закрыт"
+
+#: lib/strerror.c:672
+msgid "Too many references"
+msgstr "Слишком много ссылок"
+
+#: lib/strerror.c:675
+msgid "Timed out"
+msgstr "Время ожидания истекло"
+
+#: lib/strerror.c:678
+msgid "Connection refused"
+msgstr "Соединение отклонено"
+
+#: lib/strerror.c:681
+msgid "Loop??"
+msgstr "Цикл??"
+
+#: lib/strerror.c:684
+msgid "Name too long"
+msgstr "Имя слишком длинное"
+
+#: lib/strerror.c:687
+msgid "Host down"
+msgstr "Хост недоступен"
+
+#: lib/strerror.c:690
+msgid "Host unreachable"
+msgstr "Хост недостижим"
+
+#: lib/strerror.c:693
+msgid "Not empty"
+msgstr "Не пусто"
+
+#: lib/strerror.c:696
+msgid "Process limit reached"
+msgstr "Достигнут лимит процессов"
+
+#: lib/strerror.c:699
+msgid "Too many users"
+msgstr "Слишком много пользователей"
+
+#: lib/strerror.c:702
+msgid "Bad quota"
+msgstr "Неверная квота"
+
+#: lib/strerror.c:705
+msgid "Something is stale"
+msgstr "Что-то устарело"
+
+#: lib/strerror.c:708
+msgid "Remote error"
+msgstr "Удалённая ошибка"
+
+#: lib/strerror.c:712
+msgid "Disconnected"
+msgstr "Отключено"
+
+#: lib/strerror.c:717
+msgid "Winsock library is not ready"
+msgstr "Библиотека Winsock не готова"
+
+#: lib/strerror.c:720
+msgid "Winsock library not initialised"
+msgstr "Библиотека Winsock не инициализирована"
+
+#: lib/strerror.c:723
+msgid "Winsock version not supported"
+msgstr "Версия Winsock не поддерживается"
+
+#: lib/strerror.c:729
+msgid "Host not found"
+msgstr "Хост не найден"
+
+#: lib/strerror.c:734
+msgid "Host not found, try again"
+msgstr "Хост не найден, попробуйте снова"
+
+#: lib/strerror.c:739
+msgid "Unrecoverable error in call to nameserver"
+msgstr "Невосстановимая ошибка при обращении к серверу имён"
+
+#: lib/strerror.c:744
+msgid "No data record of requested type"
+msgstr "Нет записи данных запрошенного типа"
+
+#: lib/strerror.c:807
+#, c-format
+msgid "Unknown error %d (%#x)"
+msgstr "Неизвестная ошибка %d (%#x)"
+
+#: lib/strerror.c:819 lib/strerror.c:833 lib/strerror.c:842
+#, c-format
+msgid "Unknown error %d"
+msgstr "Неизвестная ошибка %d"
+
+#: lib/strerror.c:982
+#, c-format
+msgid ""
+"SEC_E_ILLEGAL_MESSAGE (0x%08X) - This error usually occurs when a fatal SSL/"
+"TLS alert is received (e.g. handshake failed). More detail may be available "
+"in the Windows System event log."
+msgstr ""
+"SEC_E_ILLEGAL_MESSAGE (0x%08X) - Эта ошибка обычно возникает при получении "
+"фатального предупреждения SSL/TLS (например, сбой рукопожатия). Дополнительные "
+"сведения могут быть доступны в журнале событий Windows."
+
+#: lib/strerror.c:990
+#, c-format
+msgid "%s (0x%08X) - %s"
+msgstr "%s (0x%08X) - %s"
+
+#: lib/strerror.c:992
+#, c-format
+msgid "%s (0x%08X)"
+msgstr "%s (0x%08X)"
